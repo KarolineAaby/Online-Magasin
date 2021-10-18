@@ -1,0 +1,303 @@
+/**
+ * projekt: Online Magasin
+ **/
+
+/* Adobe fonts */
+@import url("https://use.typekit.net/dyt8ueu.css");
+/* font-family: 'usual', sans-serif; */ /* font-weight: 700; font-style: normal; */
+@import url("https://use.typekit.net/vim7uiv.css");
+/* font-family: 'rig-shaded-medium-face', sans-serif; font-weight: 500; font-style: normal; */
+@import url("https://use.typekit.net/vim7uiv.css");
+/* font-family: 'futura-pt', sans-serif; font-weight: 400; font-style: normal; */
+
+/* Variabler*/
+:root {
+  /* farver */
+  --black: #000000;
+  --greyblack: #1A1A1A;
+  --white: #FFFFFF;
+  --grey: #EDEEEE;
+  --red: #C92A25;
+
+  /* fonte */
+  --overskrift: 'usual', sans-serif; /* overskrifter */
+  --underoverskrift: 'rig-shaded-medium-face', sans-serif; /* underoverskrifter */
+  --brødtekst: 'futura-pt', sans-serif; /* brødtekst */
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menubar */
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100%;
+    background: var(--grey);
+}
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#navigation li {
+  list-style: none;
+}
+
+#navigation li a {
+  transition: all 0.5s ease 0s;
+  font-family: var(--underoverskrift);
+  font-size: 80%;
+}
+
+#navigation a:link, a:visited {
+  color: var(--greyblack);
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  color: var(--red);
+}
+
+/* header */
+header {
+  float: left;
+height: 780px;
+  width: 100%;
+  background: var(--white);
+}
+
+/*  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+*/
+
+/* typography */
+#overskrifter {
+  font-family: var(--overskrift);
+  color: var(--greyblack);
+  padding-bottom: 20px;
+  /* padding: 20px; */
+}
+
+#overskrift2 {
+  font-family: var(--overskrift);
+  color: var(--greyblack);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 100%;
+  /* padding: 20px; */
+}
+
+#brødtekst {
+  font-family: var(--brødtekst);
+  color: var(--greyblack);
+  padding-bottom: 20px;
+  /* margin-left: 20px; */
+}
+
+/* section: nyeste artikler */
+#nyesteartikler {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+#gallerinyeste img {
+  /* width: 23%; */
+  width: 100%;
+  height: auto;
+  /* margin: 17px; */
+}
+
+#gallerinyeste h4 {
+  /*margin-left: 17px; */
+}
+
+#gallerinyeste {
+  margin: 0;
+  float: left;
+  width: 300px;
+}
+
+/* placer galleri i midten - sidste 3 billeder (flexbox ville ikke virke) */
+#gallerinyeste2 img {
+  width: 100%;
+  height: auto;
+}
+
+#gallerinyeste2 {
+  margin-left: 26px;
+  /* border: 1px solid #ccc; */
+  float: left;
+  width: 300px;
+}
+
+/* section: begynder guide */
+#begynderguide img {
+  margin-top: 20px;
+}
+
+/* section: bliv inspireret */
+#blivinspireret {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  margin-top: 20px;
+  height: 600px;
+}
+
+
+#galleriinspireret img {
+  /* width: 23%; */
+  width: 100%;
+  height: auto;
+  /* margin: 17px; */
+}
+
+#galleriinspireret {
+  margin: 0;
+  float: left;
+  width: 626px;
+}
+
+/* placer galleri i midten - sidste billede (flexbox ville ikke virke) */
+#galleriinspireret2 img {
+  width: 100%;
+  height: auto;
+}
+
+#galleriinspireret2 {
+  margin-left: 26px;
+  float: left;
+  width: 626px;
+}
+
+/* footer*/
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--grey);
+  color: var(--greyblack);
+  text-align: center;
+}
+
+#underoverskrift {
+  font-family: var(--underoverskrift);
+  color: var(--greyblack);
+  font-size: 80%;
+}
+
+/*
+#gallerinyeste {
+  display: flex;
+  justify-content: space-evenly;
+}
+*/
+
+/*
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin: 0.5rem 1.5rem; */
+  /*
+  background-color: var(--grey);
+}
+
+a, button {
+  color: var(--greyblack)
+}
+
+.logoplacement  {
+  margin-right: auto;
+}
+
+.logo {
+  height: 2em;
+  margin-right: auto;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 1rem;
+  transition: all 0.5s ease 0s;
+}
+
+.navlinks li a:hover {
+  color: var(--red);
+}
+
+button {
+  background-color: none;
+  color: var(--red);
+  cursor: pointer;
+  border: none;
+  font-family: var(--font);
+  font-size: 1rem;
+  margin-right: 40px;
+}
+*/
+
+/* header {
+  background-color: var(--grey);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: var(--greyblack);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+*/
+
+/*li, a, button {
+  font-family: var(--font);
+  color: var(--greyblack);
+  list-style-type: none;
+}
+
+header {
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+*/
