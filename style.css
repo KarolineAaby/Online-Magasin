@@ -74,6 +74,41 @@ height: 780px;
   background: var(--white);
 }
 
+header .btn1 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: var(--red);
+  color: var(--white);
+  font-family: var(--underoverskrift);
+  font-size: 90%;
+  padding: 10px 30px;
+  padding-top: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+header .btn2 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: var(--red);
+  color: var(--white);
+  font-family: var(--underoverskrift);
+  font-size: 90%;
+  padding: 10px 30px;
+  padding-top: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
 /*  margin-left: 50px;
   margin-right: 50px;
   padding: 20px;
