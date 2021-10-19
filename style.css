@@ -8,7 +8,9 @@
 @import url("https://use.typekit.net/vim7uiv.css");
 /* font-family: 'rig-shaded-medium-face', sans-serif; font-weight: 500; font-style: normal; */
 @import url("https://use.typekit.net/vim7uiv.css");
-/* font-family: 'futura-pt', sans-serif; font-weight: 400; font-style: normal; */
+/* font-family: 'futura-pt', sans-serif; font-weight: 300; font-style: normal; */
+@import url("https://use.typekit.net/vim7uiv.css");
+/* font-family: 'franklin-gothic-urw', sans-serif; font-weight: 300; font-style: normal; */
 
 /* Variabler*/
 :root {
@@ -23,6 +25,7 @@
   --overskrift: 'usual', sans-serif; /* overskrifter */
   --underoverskrift: 'rig-shaded-medium-face', sans-serif; /* underoverskrifter */
   --brødtekst: 'futura-pt', sans-serif; /* brødtekst */
+  --brødtekstarticle: 'franklin-gothic-urw', sans-serif; /* brødtekst */
 }
 
 *{
@@ -31,7 +34,6 @@
   padding: 0;
 }
 
-/* Menubar */
 #navigation {
     display: flex;
     align-items: center;
@@ -65,6 +67,7 @@ ul {
 #navigation a:hover {
   color: var(--red);
 }
+
 
 /* header */
 header {
@@ -108,7 +111,6 @@ header .btn2 {
   border-radius: 20px;
 }
 
-
 /*  margin-left: 50px;
   margin-right: 50px;
   padding: 20px;
@@ -132,9 +134,32 @@ header .btn2 {
   /* padding: 20px; */
 }
 
+#overskrift3 {
+  font-family: var(--overskrift);
+  color: var(--greyblack);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 110%;
+  /* padding: 20px; */
+}
+
 #brødtekst {
   font-family: var(--brødtekst);
   color: var(--greyblack);
+  padding-bottom: 20px;
+  /* margin-left: 20px; */
+}
+
+#textarticle {
+  font-family: var(--brødtekstarticle);
+  color: var(--greyblack);
+  padding-bottom: 20px;
+  /* margin-left: 20px; */
+}
+
+#textarticle2 {
+  font-family: var(--brødtekstarticle);
+  color: var(--grey);
   padding-bottom: 20px;
   /* margin-left: 20px; */
 }
@@ -214,6 +239,47 @@ header .btn2 {
   margin-left: 26px;
   float: left;
   width: 626px;
+}
+
+/* subpages */
+#article {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+}
+
+#articlebilled {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+/* subpages: FOTOAPPS */
+.overskriftheaderplacement {
+  position: absolute;
+  top: 63%;
+  left: 7%;
+  width: 300px;
+  font-family: var(--overskrift);
+  font-size: 220%;
+  color: var(--greyblack);
+}
+
+.tekstheaderplacement {
+  position: absolute;
+  top: 75%;
+  left: 7%;
+  width: 430px;
+}
+
+/* subpages: BEGYNDER GUIDE */
+.overskriftheaderplacement2 {
+  position: absolute;
+  top: 67%;
+  left: 7%;
+  width: 350px;
+  font-family: var(--overskrift);
+  font-size: 220%;
+  color: var(--grey);
 }
 
 /* footer*/
