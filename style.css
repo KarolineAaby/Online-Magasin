@@ -20,6 +20,7 @@
   --white: #FFFFFF;
   --grey: #EDEEEE;
   --red: #C92A25;
+  --darkgrey: #717171;
 
   /* fonte */
   --overskrift: 'usual', sans-serif; /* overskrifter */
@@ -122,7 +123,6 @@ header .btn2 {
   font-family: var(--overskrift);
   color: var(--greyblack);
   padding-bottom: 20px;
-  /* padding: 20px; */
 }
 
 #overskrift2 {
@@ -131,7 +131,6 @@ header .btn2 {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 100%;
-  /* padding: 20px; */
 }
 
 #overskrift3 {
@@ -140,28 +139,31 @@ header .btn2 {
   padding-top: 15px;
   padding-bottom: 10px;
   font-size: 110%;
-  /* padding: 20px; */
 }
 
 #brødtekst {
   font-family: var(--brødtekst);
   color: var(--greyblack);
   padding-bottom: 20px;
-  /* margin-left: 20px; */
 }
 
 #textarticle {
   font-family: var(--brødtekstarticle);
   color: var(--greyblack);
   padding-bottom: 20px;
-  /* margin-left: 20px; */
 }
 
 #textarticle2 {
   font-family: var(--brødtekstarticle);
   color: var(--grey);
   padding-bottom: 20px;
-  /* margin-left: 20px; */
+}
+
+#textarticle3 {
+  font-family: var(--brødtekstarticle);
+  color: var(--greyblack);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* section: nyeste artikler */
@@ -251,6 +253,34 @@ header .btn2 {
 #articlebilled {
   padding-top: 15px;
   padding-bottom: 30px;
+}
+
+/* LÆS MERE */
+#læsmeretekst {
+  float: left;
+  font-family: var(--underoverskrift);
+  color: var(--darkgrey);
+  /* padding-bottom: 20px; */
+  padding-top: 2px;
+  margin-bottom: 20px;
+}
+
+#læsmereikon {
+  padding: 10px;
+}
+
+.læsmerelink {
+  font-size: 80%;
+  list-style: none;
+  transition: all 0.5s ease 0s;
+}
+
+.læsmerelink a:link, a:visited {
+  text-decoration: none;
+}
+
+.læsmerelink a:hover {
+  color: var(--red);
 }
 
 /* subpages: FOTOAPPS */
