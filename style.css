@@ -419,6 +419,22 @@ header .btn2 {
   width: 430px;
 }
 
+.download {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.download li a {
+  padding-left: 6px;
+  color: var(--darkgrey);
+  text-decoration: none;
+}
+
+.download li a:hover {
+  color: var(--red);
+}
+
 /* subpages: BEGYNDER GUIDE */
 .overskriftheaderplacement2 {
   position: absolute;
