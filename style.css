@@ -166,6 +166,12 @@ header .btn2 {
   padding-top: 20px;
 }
 
+#textarticle4 {
+  font-family: var(--brødtekstarticle);
+  color: var(--grey);
+  padding-bottom: 20px;
+}
+
 /* section: nyeste artikler */
 #nyesteartikler {
   margin-left: 50px;
@@ -307,6 +313,33 @@ header .btn2 {
   top: 67%;
   left: 7%;
   width: 350px;
+  font-family: var(--overskrift);
+  font-size: 220%;
+  color: var(--grey);
+}
+
+#gallerieksponering {
+  width: 31%;
+  background-color: var(--grey);
+  margin: 7px;
+  /*padding-left: 20px;
+  padding-right: 20px; */
+  float: left;
+  margin-bottom: 30px;
+}
+
+#gallerieksponering h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* font-size: 99,5%;*/
+}
+
+/* subpages: PRESETS */
+.overskriftheaderplacement3 {
+  position: absolute;
+  top: 63%;
+  left: 7%;
+  width: 400px;
   font-family: var(--overskrift);
   font-size: 220%;
   color: var(--grey);
