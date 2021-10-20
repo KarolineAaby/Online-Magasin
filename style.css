@@ -152,12 +152,6 @@ header .btn2 {
   color: var(--grey);
 }
 
-/*  margin-left: 50px;
-  margin-right: 50px;
-  padding: 20px;
-}
-*/
-
 /* typography */
 #overskrifter {
   font-family: var(--overskrift);
@@ -252,6 +246,43 @@ header .btn2 {
 /* section: begynder guide */
 #begynderguide img {
   margin-top: 20px;
+}
+
+.btn3 {
+  position: absolute;
+  top: 208%;
+  left: 17.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: var(--red);
+  color: var(--white);
+  font-family: var(--underoverskrift);
+  font-size: 90%;
+  padding: 10px 30px;
+  padding-top: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.forsidebegynderplacement {
+  position: absolute;
+  top: 188%;
+  left: 12.5%;
+  width: 300px;
+  font-family: var(--overskrift);
+  font-size: 210%;
+  color: var(--grey);
+}
+
+.forsidebegynderplacementunder {
+  position: absolute;
+  top: 195%;
+  left: 12.5%;
+  width: 650px;
+  font-family: var(--brødtekstarticle);
+  font-size: 110%;
+  color: var(--grey);
 }
 
 /* section: bliv inspireret */
