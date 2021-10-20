@@ -70,7 +70,7 @@ ul {
 }
 
 
-/* header */
+/* header forside */
 header {
   float: left;
 height: 780px;
@@ -80,7 +80,7 @@ height: 780px;
 
 header .btn1 {
   position: absolute;
-  top: 50%;
+  top: 58%;
   left: 15%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -97,8 +97,8 @@ header .btn1 {
 
 header .btn2 {
   position: absolute;
-  top: 50%;
-  right: 10%;
+  top: 58%;
+  right: 12%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: var(--red);
@@ -110,6 +110,46 @@ header .btn2 {
   border: none;
   cursor: pointer;
   border-radius: 20px;
+}
+
+.forsideheaderplacement {
+  position: absolute;
+  top: 42%;
+  left: 10.5%;
+  width: 300px;
+  font-family: var(--underoverskrift);
+  font-size: 100%;
+  color: var(--greyblack);
+}
+
+.forsideheaderplacementunder {
+  position: absolute;
+  top: 45%;
+  left: 10.5%;
+  width: 300px;
+  font-family: var(--overskrift);
+  font-size: 230%;
+  color: var(--greyblack);
+}
+
+.forsideheaderplacement2 {
+  position: absolute;
+  top: 42%;
+  right: 5%;
+  width: 300px;
+  font-family: var(--underoverskrift);
+  font-size: 100%;
+  color: var(--grey);
+}
+
+.forsideheaderplacementunder2 {
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  width: 300px;
+  font-family: var(--overskrift);
+  font-size: 230%;
+  color: var(--grey);
 }
 
 /*  margin-left: 50px;
